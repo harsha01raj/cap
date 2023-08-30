@@ -1,4 +1,4 @@
-
+var num=1221;
 var a=num;
 var rev=0;
     for(var i=0;a>0;i++){
