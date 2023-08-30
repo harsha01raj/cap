@@ -1,0 +1,14 @@
+
+var a=num;
+var rev=0;
+    for(var i=0;a>0;i++){
+        var rem=a%10;
+        rev=rev*10+rem;
+        a=Math.floor(a/10);
+        
+    }
+    if(rev==num){
+        console.log("Yes");
+    }else{
+        console.log("No")
+    }
